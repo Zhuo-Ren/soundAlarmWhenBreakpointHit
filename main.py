@@ -3,10 +3,9 @@ from breakpointAlarm.breakpointAlarm import alarm
 if __name__ == '__main__':
     print(1)
     '''use pycharm
-    1. right click breakpoint
-    2. left click 'more'
-    3. select 'Evaluate and log'
-    4. write 'alarm()' in the following black
+    1. set a breakpoint at this line
+    2. right click breakpoint
+    3. in "conditions", write 'alarm()'
     ----------------------------
     debug
     breakpoint hit
